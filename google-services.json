@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "65188767255",
+    "firebase_url": "https://guidalz-30aec.firebaseio.com",
+    "project_id": "guidalz-30aec",
+    "storage_bucket": "guidalz-30aec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65188767255:android:2a2750c822025813",
+        "android_client_info": {
+          "package_name": "com.groupe36.supcom.guidalz_10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65188767255-4m2nolikuksuqn07vl9kn69lndb2e2bq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.groupe36.supcom.guidalz_10",
+            "certificate_hash": "02ae3f93960e8481929e9a5741c32956cf746fbb"
+          }
+        },
+        {
+          "client_id": "65188767255-kegrapfrklku4mdmb42r2o5pb7eenuhn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeVnfXwc9Qw6YBcrCAJ18znHy-FvFAsb0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65188767255-kegrapfrklku4mdmb42r2o5pb7eenuhn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65188767255:android:2cf3890eec0d212e",
+        "android_client_info": {
+          "package_name": "com.example.asus.guidalz_patient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65188767255-kegrapfrklku4mdmb42r2o5pb7eenuhn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeVnfXwc9Qw6YBcrCAJ18znHy-FvFAsb0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

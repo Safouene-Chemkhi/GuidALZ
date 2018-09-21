@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.groupe36.supcom.guidalz_10.Home"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:clickable="true"
+            android:layout_margin="16sp"
+            app:srcCompat="@drawable/a78373" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/sign_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="0.5"
+            android:clickable="true"
+            android:layout_margin="16sp"
+            app:srcCompat="@drawable/sign_out_icon" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:alpha="0.6"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/a" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#ffffff">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:id="@+id/btn_appointment_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_weight="50"
+                android:weightSum="100"
+                android:orientation="vertical"
+                android:onClick="GoAppointment">
+
+                <ImageView
+                    android:id="@+id/btn_appointment"
+                    android:layout_height="130dp"
+                    android:layout_margin="10dp"
+                    android:layout_width="130dp"
+                    android:layout_weight="90"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/calendar"
+                    />
+
+                <TextView
+                    android:id="@+id/btn_appointment_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageView"
+                    android:text="APPOINTMENT"
+                    android:layout_weight="10"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_reminder_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_weight="50"
+                android:orientation="vertical"
+                android:onClick="GoReminder">
+
+                <ImageView
+                    android:id="@+id/btn_reminder"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/pill"
+                    android:alpha="0.65"/>
+
+                <TextView
+                    android:id="@+id/btn_reminder_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageView"
+                    android:text="PILL REMINDER"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#ffffff"
+                android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/btn_track_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:layout_weight="0.25"
+                android:orientation="vertical"
+                android:onClick="GoTrack">
+
+                <ImageView
+                    android:id="@+id/btn_track"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/locationicon"
+                    />
+
+                <TextView
+                    android:id="@+id/btn_track_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageView"
+                    android:textAlignment="center"
+                    android:text="TRACK" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_memories_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_column="1"
+                android:layout_row="1"
+                android:layout_weight="0.25"
+                android:orientation="vertical"
+                android:onClick="GoMemories">
+
+                <ImageView
+                    android:id="@+id/btn_memories"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/camera"
+                    />
+
+                <TextView
+                    android:id="@+id/btn_memories_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageView"
+                    android:textAlignment="center"
+                    android:text="MEMORIES" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

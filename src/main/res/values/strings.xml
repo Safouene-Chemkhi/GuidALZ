@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">GuidALZ_1.0</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="time_picker">timePicker</string>
+    <string name="title_activity_track2">Map</string>
+
+    <string name="supervisor_notification_title_template">GuidAlZ: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="supervisor_notification_placeholder_text_template">Patient has now quit the secure area.\n
+    </string>
+
+    <string name="action_share">Track</string>
+    <string name="action_reply">Reply</string>
+
+
+</resources>

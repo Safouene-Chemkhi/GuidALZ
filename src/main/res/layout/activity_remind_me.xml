@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.groupe36.supcom.guidalz_10.remindMe"
+    android:background="@drawable/test"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Remind ME "
+            android:textStyle="bold"
+            android:layout_margin="15dp"
+            android:textSize="28sp"
+            android:textColor="#6D5479"
+            android:padding="40dp"
+            android:gravity="center"
+            />
+
+        <ListView
+            android:id="@+id/lstViewPerson"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:scrollbars="vertical"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

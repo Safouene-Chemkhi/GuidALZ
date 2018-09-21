@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eac7f5"
+    tools:context="com.groupe36.supcom.guidalz_10.Pill_Reminder">
+
+
+    <ImageView
+        android:id="@+id/add_pill_btn"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_margin="5sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:onClick="add_pill"
+        app:srcCompat="@android:drawable/ic_menu_add"
+         />
+</RelativeLayout>
